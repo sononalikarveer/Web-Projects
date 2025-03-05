@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script>
+        function pageLoaded(){
+            alert("Welcome, page loaded!");
+        }
+        function buttonClicked(){
+            alert("Button was Clicked");
+        }
+
+
+    </script>
+</head>
+<body onload="pageLoaded();">
+    <h2>Evenet Handling</h2>
+    <button onClick="buttonClicked();">Clicked</button>
+
+ 
+
+    <!-- <div>
+       <h3> Changing text dynamically<br>What happens<br>Cliciking the button chages the text</h3>
+       <h2 id="heading">Hello, Sonali!</h2>
+       <button onclick="changeText()">Click me</button>
+       <script>
+        function changeText() {
+            document.getElementById("heading").innerText="Helllo,Mansi!";
+        }
+       </script>
+    </div>
+
+
+    <div>
+       <h3> Changing style CSS<br>What happens<br>Cliciking the button chages the text color</h3>
+       <p id="para">This is a paragraph</p>
+       <button onclick="changeStyle();">Change color</button>
+       <script>
+        function changeStyle() {
+            document.getElementById("para").style.color="blue";
+            document.getElementById("para").style.fontSize="20px";
+
+        }
+       </script>
+    </div>
+    
+    <div>
+        <h3> Adding an element<br>What happens<br>Cliciking the button adds element</h3>
+        <p id="container">This is a paragraph</p> -->
+        <!-- <button onclick="addParagraph()">Add paragraph</button>
+        <div id="container">This is a paragraph</div>
+        <script>
+         function addParagraph() {
+            let newpara = document.createElement("p");
+            let newparag = document.createElement("p");
+            newpara.innerText = "This is new Paragraph";
+            newparag.innerText = "This is new Paragraph ok?";
+            document.getElementById("container").appendChild(newpara,newparag);
+ 
+         }
+        </script>
+     </div>
+
+
+     <div>
+        <h3> Reemoves paragraphs<br>What happens<br>Cliciking the button adds element</h3>
+        <p id="removeMe">This is a paragraph</p>
+        <button onclick="removeElemnet()">Add paragraph</button>
+        
+        <script>
+         function removeElemnet() {
+            document.getElementById("removeMe").remove();
+ 
+         }
+        </script>
+     </div>
+
+     <div>
+        <h3> Cliciking the button adds element</h3>
+        <input type="text" id="userInput" placeholder="Enter the Name">
+        <button onclick="displayInput();">Submit</button>
+        <p id="output"></p>
+       
+        
+        <script>
+         function removeElemnet() {
+            let name= document.getElementById("userInput").value;
+            document.getElementById("output").innerText ="Hello, "+ name+"!";
+           
+ 
+         }
+        </script>
+     </div> -->
+</body>
+</html>
